@@ -98,6 +98,7 @@ export default function Menu() {
         </div>
       ) : (
         <div className="isLoggedIn">
+          <img src={'/chips-assets/ficha-gold-As.png'} className={'playerChipIcon'} alt="chips" />
           <button disabled>Chips: {user.chips}</button>
           <button disabled>{user.username}</button>
           <Link href="/home">

@@ -70,9 +70,10 @@ a {
 .abas button {
   width: 100px;
   height: 30px;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.6);
   border: none;
   border-radius: 5px;
+  color: black;
 }
 
 .abas button:hover {
@@ -126,7 +127,7 @@ a {
   width: 100px;
   height: 30px;
   background-color: transparent;
-  border: none;
+  border: 2px solid darkgoldenrod;
   color: white;
 }
 
